@@ -52,7 +52,7 @@ only adds `nu-cdpath cd` and `nu-cdpath resolve` and leaves `cd` as it is. To
 try it without your own configuration:
 
 ```sh
-nu --config examples/minimal-config.nu
+XDG_CONFIG_HOME=$(mktemp -d) nu --config examples/minimal-config.nu
 ```
 
 ## Usage
