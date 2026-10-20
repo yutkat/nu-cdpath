@@ -1,0 +1,7 @@
+{
+    name: nu-cdpath
+    type: module
+    version: "0.1.0"
+    description: "bash/zsh-style `CDPATH` for `cd` in Nushell."
+    license: "LICENSE"
+}

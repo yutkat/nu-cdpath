@@ -27,6 +27,20 @@ use /path/to/nu-cdpath/nu-cdpath cd
 $env.CDPATH = [~ ~/projects]
 ```
 
+Or install it with [nupm](https://github.com/nushell/nupm) from the clone
+(`$env.NUPM_HOME/modules` must be in `$env.NU_LIB_DIRS`):
+
+```nu
+nupm install /path/to/nu-cdpath --path
+```
+
+and add to your `config.nu`:
+
+```nu
+use nu-cdpath cd
+$env.CDPATH = [~ ~/projects]
+```
+
 `use nu-cdpath cd` replaces `cd` in your configuration; `use nu-cdpath` alone
 only adds `nu-cdpath cd` and `nu-cdpath resolve` and leaves `cd` as it is. To
 try it without your own configuration:
