@@ -20,7 +20,13 @@ too.
 
 ## Install
 
-Clone the repository, then add to your `config.nu`:
+Clone the repository:
+
+```sh
+git clone https://github.com/yutkat/nu-cdpath.git /path/to/nu-cdpath
+```
+
+then add to your `config.nu`:
 
 ```nu
 use /path/to/nu-cdpath/nu-cdpath cd
